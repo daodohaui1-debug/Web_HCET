@@ -3,7 +3,7 @@ import MyCourses from "../pages/Mycources/Mycources";
 import CoursePage from "../pages/CoursePage/CoursePage";
 import Content from "../pages/Content/Content";
 import Admin from "../pages/Admin/Admin";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 const publicRoutes = [
   { path: "/", Component: Home },
