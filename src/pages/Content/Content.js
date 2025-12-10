@@ -6,7 +6,7 @@ import Espidf from "../../images/espidf.png";
 import COMBO from "../../images/FULL COMBO.png";
 
 import QR from "../../images/QR.jpg";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 
 const Content = () => {
   const qrImage = QR;
@@ -114,6 +114,9 @@ const Content = () => {
           <div className="step">
             <span className="step-number">Bước 3</span>
             <p>Chụp lại màn hình và gửi tới fanpage</p>
+            <a href="https://www.facebook.com/profile.php?id=61566965671067">
+              <i className="fa fa-headphones"></i> 0123456789
+            </a>
           </div>
 
           <div className="step">
