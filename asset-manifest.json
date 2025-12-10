@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Web_HCET/static/css/main.9ad5ad01.css",
-    "main.js": "/Web_HCET/static/js/main.50da1e68.js",
+    "main.css": "/Web_HCET/static/css/main.03874a55.css",
+    "main.js": "/Web_HCET/static/js/main.7d54fa7e.js",
     "static/js/453.e328f9d4.chunk.js": "/Web_HCET/static/js/453.e328f9d4.chunk.js",
     "static/media/stm32_ai.png": "/Web_HCET/static/media/stm32_ai.e3c11fb9605e17bbeec7.png",
     "static/media/FULL COMBO.png": "/Web_HCET/static/media/FULL COMBO.d3060f5d7772d5079e45.png",
@@ -11,12 +11,12 @@
     "static/media/logo.png": "/Web_HCET/static/media/logo.2f4f1195222e921a7e44.png",
     "static/media/QR.jpg": "/Web_HCET/static/media/QR.8ca856cc24c3312df81b.jpg",
     "index.html": "/Web_HCET/index.html",
-    "main.9ad5ad01.css.map": "/Web_HCET/static/css/main.9ad5ad01.css.map",
-    "main.50da1e68.js.map": "/Web_HCET/static/js/main.50da1e68.js.map",
+    "main.03874a55.css.map": "/Web_HCET/static/css/main.03874a55.css.map",
+    "main.7d54fa7e.js.map": "/Web_HCET/static/js/main.7d54fa7e.js.map",
     "453.e328f9d4.chunk.js.map": "/Web_HCET/static/js/453.e328f9d4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ad5ad01.css",
-    "static/js/main.50da1e68.js"
+    "static/css/main.03874a55.css",
+    "static/js/main.7d54fa7e.js"
   ]
 }
