@@ -115,7 +115,7 @@ const Content = () => {
             <span className="step-number">Bước 3</span>
             <p>Chụp lại màn hình và gửi tới fanpage</p>
             <a href="https://www.facebook.com/profile.php?id=61566965671067">
-              <i className="fa fa-headphones"></i> 0123456789
+              <i className="fa fa-facebook _ICON_FACE"></i>
             </a>
           </div>
 
