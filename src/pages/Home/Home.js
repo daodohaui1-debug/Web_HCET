@@ -16,7 +16,7 @@ function Home() {
       tag: "STM32",
       title: "STM32 THANH GHI",
       oldPrice: "1.200.000₫",
-      newPrice: "360.000₫",
+      newPrice: "250.000₫",
       description: `Vi điều khiển STM32 thanh ghi.<br/>- Ngoại vi<br/>- Memory,...`,
       link: "https://docs.google.com/document/d/1-m-1rWXeWirnZqyD3jf6-D07fNg9CIxU7PBn-R0Gau0/edit?tab=t.0",
     },
@@ -26,7 +26,7 @@ function Home() {
       tag: "ESP32",
       title: "ESP32 IDF",
       oldPrice: "1.200.000₫",
-      newPrice: "270.000₫",
+      newPrice: "250.000₫",
       description: `Vi điều khiển ESP32 - IDF.<br/>- Ngoại vi<br/>- Sensor,...`,
       link: "https://docs.google.com/document/d/1-m-1rWXeWirnZqyD3jf6-D07fNg9CIxU7PBn-R0Gau0/edit?tab=t.0",
     },
@@ -103,7 +103,7 @@ function Home() {
 
             <div class="price">
               🎁 Full combo 3 khóa học chỉ còn
-              <span class="highlight">500.000đ</span>
+              <span class="highlight">400.000đ</span>
             </div>
             <div onClick={()=>{handleRegister(4)}} class="sale-btn">
               Đăng Ký Ngay
