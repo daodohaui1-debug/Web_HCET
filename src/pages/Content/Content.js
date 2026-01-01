@@ -14,7 +14,7 @@ const Content = () => {
   const courseInfo = [
     {
       title: "Khóa Học STM32 Thanh Ghi",
-      price: "250.000 VND",
+      price: "360.000 VND",
       thumbnail: Stm32TG,
       description:
         "Khóa học giúp bạn hiểu bản chất của vi điều khiển thông qua thanh ghi ngoại vi, startup, memory,.. và build bằng makefile,...",
@@ -25,7 +25,7 @@ const Content = () => {
     {
       title: "Khóa Học ESP32 IDF",
       thumbnail: Espidf,
-      price: "250.000 VND",
+      price: "360.000 VND",
       description: "Khóa học về ESP32 IDF",
       totalLessons: 30,
       duration: "30 giờ học",
@@ -43,7 +43,7 @@ const Content = () => {
     {
       title: "COMBO - STM32 - ESP32 - RASPI",
       thumbnail: COMBO,
-      price: "400.000 VND",
+      price: "500.000 VND",
       description: "Full combo 3 khóa",
       totalLessons: 80,
       duration: "...",
