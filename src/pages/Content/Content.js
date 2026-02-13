@@ -43,7 +43,7 @@ const Content = () => {
     {
       title: "COMBO - STM32 - ESP32 - RASPI",
       thumbnail: COMBO,
-      price: "500.000 VND",
+      price: "400.000 VND",
       description: "Full combo 3 khóa",
       totalLessons: 80,
       duration: "...",
