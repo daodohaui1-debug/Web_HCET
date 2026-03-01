@@ -103,7 +103,7 @@ function Home() {
 
             <div class="price">
               🎁 Full combo 3 khóa học chỉ còn
-              <span class="highlight">400.000đ</span>
+              <span class="highlight">500.000đ</span>
             </div>
             <div
               onClick={() => {

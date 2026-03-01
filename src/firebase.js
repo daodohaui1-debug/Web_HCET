@@ -2,7 +2,7 @@ import { initializeApp } from "firebase/app";
 import { getAuth, GoogleAuthProvider } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyC3THpTAz--ywaNyz3nQm54OPADsWVUljc",
+  apiKey: "AIzaSyBjrDKplJom9hqCh8W0Bcy8TsjpNNbGqok",
   authDomain: "hoccunget.firebaseapp.com",
   projectId: "hoccunget",
   storageBucket: "hoccunget.firebasestorage.app",
