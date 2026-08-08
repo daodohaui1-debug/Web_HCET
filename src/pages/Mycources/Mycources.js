@@ -4,6 +4,7 @@ import Stm32TG from "../../images/stm32thanhghi.png";
 import Espidf from "../../images/espidf.png";
 import pi from "../../images/RAS PI 3B.png";
 import { useNavigate } from "react-router-dom";
+import { readCourseCache, writeCourseCache } from "../../utils/courseCache";
 
 const MyCourses = () => {
   const email = localStorage.getItem("userEmail");
@@ -43,6 +44,13 @@ const MyCourses = () => {
       return;
     }
 
+    const cachedCourses = readCourseCache("allowed", email);
+    if (cachedCourses) {
+      setAllowedCourses(cachedCourses);
+      setLoading(false);
+      return;
+    }
+
     // Gọi API check email
     fetch(
       `https://script.google.com/macros/s/AKfycbzBtNGSPeQ9YazFxwGipytrffyMpndD-Ju6V6Q7Fl0R9giS4BrzfyJOeUQwtq-aoo8myg/exec?action=checkEmail&email=${email}`
@@ -51,11 +59,14 @@ const MyCourses = () => {
       .then((data) => {
         console.log("Luong Email", data);
 
-        setAllowedCourses(data.courses || []);
+        const nextCourses = data.courses || [];
+        setAllowedCourses(nextCourses);
+        writeCourseCache("allowed", email, nextCourses);
         setLoading(false);
       })
       .catch((err) => {
         setNetworkError(true);
+        setLoading(false);
         console.error("Lỗi fetch:", err);
       });
   }, [email]);

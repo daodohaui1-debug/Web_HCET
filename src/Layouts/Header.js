@@ -118,7 +118,18 @@ function Header({ onReload }) {
             TRANG CHỦ
           </Link>
           <Link to="/courses">KHÓA HỌC CỦA TÔI</Link>
-          {user && user.email === "laptrinhembedded@gmail.com" && (<Link to="/admin">THÊM USER</Link>)}
+          {user && user.email === "laptrinhembedded@gmail.com" && (
+            <>
+              <Link to="/admin">THÊM USER</Link>
+              <a
+                href="https://docs.google.com/spreadsheets/d/1s7z4oLf8ozOfJ8DvusHBbCKD9Fcp_ZnRGdbBp4eHIFc/edit?gid=381836384#gid=381836384"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                DANH SÁCH EMAIL
+              </a>
+            </>
+          )}
 
 
         </section>
