@@ -63,3 +63,10 @@
     color: #666;
     /* Màu chữ cho phần bản quyền */
 }
+
+@media (max-width: 768px) {
+    footer, .footer { margin-top: 70px !important; padding: 28px 18px !important; }
+    footer .top_footer, .footer-content { display: flex; flex-direction: column; text-align: center; }
+    footer .top_footer figure img { width: 120px; max-width: 100%; }
+    footer .padding_2x { padding: 16px 0 !important; }
+}

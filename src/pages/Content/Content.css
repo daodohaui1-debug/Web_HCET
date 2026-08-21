@@ -104,3 +104,18 @@ h1 {
   border: 1px solid #007bff;
   border-radius: 5px;
 }
+
+@media (max-width: 700px) {
+  .content-page { width: 100%; padding: 28px 16px 0; }
+  .content-page > h1 { font-size: 26px; }
+  .course-box { flex-direction: column; gap: 16px; padding: 15px; }
+  .course-thumb { width: 100%; height: auto; aspect-ratio: 16 / 9; }
+  .course-info h2 { font-size: 21px; }
+  .dangky { flex-direction: column; }
+  .qr-section { margin: 24px 0; }
+  .qr-image { width: min(180px, 60vw); }
+  .steps-section { padding: 15px; }
+  .step { gap: 10px; }
+  .step-number { min-width: 62px; padding: 6px 8px; }
+  .step p { font-size: 14px; }
+}

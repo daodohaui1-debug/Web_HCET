@@ -13,6 +13,7 @@ function Header({ onReload }) {
   const [networkError, setNetworkError] = useState(false);
   const navigate = useNavigate();
   const [openMenu, setOpenMenu] = useState(false);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   useEffect(() => {
     const unsub = onAuthStateChanged(auth, (currentUser) => {
       setUser(currentUser);
@@ -104,7 +105,7 @@ function Header({ onReload }) {
         </section>
       </menu>
 
-      <nav>
+      <nav className="main-navigation">
         <section className="flex_content">
           <figure className="logo fixed_flex">
             <img src={mLogo} alt="" />
@@ -113,14 +114,23 @@ function Header({ onReload }) {
             </figcaption>
           </figure>
         </section>
-        <section className="flex_content nav_content" id="nav_content">
-          <Link to="/" className="">
+        <button
+          type="button"
+          className="mobile-menu-button"
+          aria-label="Mở menu"
+          aria-expanded={mobileMenuOpen}
+          onClick={() => setMobileMenuOpen((current) => !current)}
+        >
+          <span></span><span></span><span></span>
+        </button>
+        <section className={`flex_content nav_content ${mobileMenuOpen ? "is-open" : ""}`} id="nav_content">
+          <Link to="/" className="" onClick={() => setMobileMenuOpen(false)}>
             TRANG CHỦ
           </Link>
-          <Link to="/courses">KHÓA HỌC CỦA TÔI</Link>
+          <Link to="/courses" onClick={() => setMobileMenuOpen(false)}>KHÓA HỌC CỦA TÔI</Link>
           {user && user.email === "laptrinhembedded@gmail.com" && (
             <>
-              <Link to="/admin">THÊM USER</Link>
+              <Link to="/admin" onClick={() => setMobileMenuOpen(false)}>THÊM USER</Link>
               <a
                 href="https://docs.google.com/spreadsheets/d/1s7z4oLf8ozOfJ8DvusHBbCKD9Fcp_ZnRGdbBp4eHIFc/edit?gid=381836384#gid=381836384"
                 target="_blank"
@@ -137,7 +147,7 @@ function Header({ onReload }) {
           {/* <a href="" className="ham">
           <i className="fa fa-bars"></i>
         </a> */}
-          <div className="ham" style={{ padding: 30 }}>
+          <div className="ham header-account">
             {!user ? (
               <>
                 <button className="google-btn" onClick={loginWithGoogle}>

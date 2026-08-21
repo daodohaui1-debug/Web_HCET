@@ -619,3 +619,51 @@ body a {
         transform: translateY(0);
     }
 }
+
+.mobile-menu-button { display: none; }
+.header-account { padding: 30px; }
+
+@media (max-width: 768px) {
+    .top_menu { display: none !important; }
+    .main-navigation {
+        position: relative; min-height: 70px; padding: 8px 14px !important;
+        display: grid !important; grid-template-columns: minmax(0, 1fr) auto auto;
+        align-items: center; gap: 10px;
+    }
+    .main-navigation > .flex_content:first-child { min-width: 0; }
+    .main-navigation .logo { justify-content: flex-start; min-width: 0; }
+    .main-navigation .logo img {
+        width: 46px !important; height: 46px !important; margin: 0 8px 0 0;
+        object-fit: contain;
+    }
+    .main-navigation .logo figcaption { font-size: 11px; line-height: 1.2; white-space: nowrap; }
+    .main-navigation .logo .title { display: block; font-size: 14px; }
+    .mobile-menu-button {
+        display: flex; width: 42px; height: 42px; border: 0; border-radius: 9px;
+        background: #eef4ff; flex-direction: column; align-items: center;
+        justify-content: center; gap: 5px; cursor: pointer;
+    }
+    .mobile-menu-button span { width: 21px; height: 2px; border-radius: 2px; background: #002347; }
+    .main-navigation .nav_content {
+        display: none !important; position: absolute; top: calc(100% + 1px);
+        left: 12px; right: 12px; z-index: 1002; padding: 10px; border-radius: 12px;
+        background: #fff; box-shadow: 0 12px 32px rgba(0, 35, 71, 0.18);
+    }
+    .main-navigation .nav_content.is-open {
+        display: flex !important; flex-direction: column; align-items: stretch;
+    }
+    .main-navigation .nav_content a {
+        width: 100%; margin: 0 !important; padding: 12px 14px !important;
+        border-radius: 8px; font-size: 14px;
+    }
+    .main-navigation .nav_content a:hover { background: #eef4ff; }
+    .header-account { padding: 0; }
+    .header-account .google-btn { padding: 9px 11px; margin: 0; font-size: 12px; }
+    .header-account + img { display: none; }
+    .user-wrapper > img { width: 42px !important; height: 42px; object-fit: cover; }
+    .user-dropdown { right: 0; width: min(260px, calc(100vw - 28px)); }
+}
+
+@media (max-width: 390px) {
+    .main-navigation .logo figcaption { display: none; }
+}

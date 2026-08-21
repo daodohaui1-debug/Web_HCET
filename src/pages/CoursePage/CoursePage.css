@@ -161,12 +161,17 @@
     .course-sidebar {
         box-sizing: border-box;
         width: 100%;
-        max-height: 260px;
+        max-height: 220px;
+        padding: 16px;
+        border-right: 0;
+        border-bottom: 1px solid #ddd;
     }
 
     .course-content {
-        padding: 18px;
+        padding: 20px 12px;
     }
+
+    .course-content h1 { margin-bottom: 14px; font-size: 22px; }
 
     .course-player__controls > input:not(.course-player__progress),
     .course-player__controls > span[aria-hidden="true"] {
@@ -175,5 +180,16 @@
 
     .course-player {
         max-width: 100%;
+        border-radius: 10px;
     }
+
+    .course-player__controls { gap: 6px; padding: 0 8px; }
+    .course-player__controls button { width: 34px; height: 34px; flex: 0 0 34px; }
+    .course-player__controls span { font-size: 11px; }
+    .course-player__quality { width: 78px; padding: 0 4px; font-size: 11px; }
+}
+
+@media (max-width: 390px) {
+    .course-player__controls span { display: none; }
+    .course-player__quality { width: 72px; }
 }

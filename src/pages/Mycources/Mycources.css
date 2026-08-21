@@ -111,3 +111,13 @@
   font-size: 14px;
   color: #555;
 }
+
+@media (max-width: 600px) {
+  .mycourses-container { padding: 30px 16px; }
+  .mycourses-container h1 { margin-bottom: 22px; font-size: 26px; }
+  .course-list { grid-template-columns: minmax(0, 1fr); gap: 18px; }
+  .course-img { height: auto; aspect-ratio: 16 / 9; }
+  .course-info { padding: 17px; }
+  .login-warning-box { padding: 24px 16px; margin-bottom: 70px; }
+  .login-warning-box h2 { font-size: 19px; }
+}
