@@ -1,0 +1,42 @@
+.parts-page { background: #f5f7fa; min-height: 70vh; padding: 60px 20px 80px; color: #172b4d; }
+.parts-container { width: min(1180px, 100%); margin: auto; }
+.parts-header { display: flex; justify-content: space-between; align-items: end; gap: 30px; margin-bottom: 28px; }
+.parts-header p { color: #1473e6; font-size: 12px; font-weight: 700; letter-spacing: 1.5px; margin-bottom: 7px; }
+.parts-header h1 { font-size: clamp(28px, 4vw, 42px); line-height: 1.2; margin-bottom: 10px; }
+.parts-header span { color: #66758a; font-size: 14px; }
+.parts-header > a, .part-buy { display: inline-flex; align-items: center; justify-content: center; gap: 8px; white-space: nowrap; }
+.parts-header > a { background: #ee4d2d; color: #fff; padding: 12px 17px; border-radius: 7px; font-weight: 600; font-size: 14px; }
+.parts-header svg, .part-buy svg { font-size: 11px; }
+.course-selector { display: flex; align-items: center; gap: 12px; margin-bottom: 18px; }
+.course-selector label { color: #52637a; font-size: 14px; font-weight: 600; }
+.course-selector select { min-width: 280px; max-width: 100%; padding: 10px 36px 10px 12px; border: 1px solid #ccd5e0; border-radius: 7px; background: #fff; color: #172b4d; font: inherit; cursor: pointer; outline: none; }
+.course-selector select:focus { border-color: #1473e6; box-shadow: 0 0 0 3px rgba(20,115,230,.12); }
+.parts-table-wrap { background: #fff; border: 1px solid #dde3eb; border-radius: 10px; overflow-x: auto; box-shadow: 0 6px 22px rgba(23,43,77,.06); }
+.parts-table { width: 100%; border-collapse: collapse; text-align: left; }
+.parts-table th { background: #eef3f8; color: #52637a; font-size: 12px; text-transform: uppercase; letter-spacing: .5px; padding: 14px 16px; }
+.parts-table td { border-top: 1px solid #e7ebf0; padding: 12px 16px; color: #5c6b7e; font-size: 13px; vertical-align: middle; }
+.parts-table tbody tr:hover { background: #fafcff; }
+.parts-table td:first-child { color: #9aa6b5; font-weight: 600; }
+.parts-table strong { color: #172b4d; font-size: 14px; }
+.part-thumb { width: 68px; height: 60px; overflow: hidden; border: 1px solid #e7ebf0; border-radius: 6px; background: #fff; padding: 3px; }
+.part-thumb img { display: block; width: 100%; height: 100%; object-fit: contain; object-position: center !important; }
+.part-badge { display: inline-block; min-width: 70px; text-align: center; padding: 5px 8px; border-radius: 20px; background: #eaf3ff; color: #1269d3; font-size: 11px; font-weight: 700; }
+.part-badge.required { background: #fff0ec; color: #dc4225; }
+.part-buy { color: #e64a2b; font-weight: 650; font-size: 12px; }
+.part-buy:hover { color: #b72d13; }
+@media (max-width: 700px) {
+  .parts-page { padding: 38px 14px 55px; }
+  .parts-header { display: block; }
+  .parts-header > a { width: 100%; margin-top: 20px; }
+  .course-selector { display: block; }
+  .course-selector label { display: block; margin-bottom: 7px; }
+  .course-selector select { width: 100%; min-width: 0; }
+  .parts-table thead { display: none; }
+  .parts-table, .parts-table tbody, .parts-table tr, .parts-table td { display: block; width: 100%; }
+  .parts-table tr { position: relative; padding: 15px; border-top: 1px solid #e7ebf0; }
+  .parts-table tr:first-child { border-top: 0; }
+  .parts-table td { border: 0; padding: 4px 0 4px 105px; min-height: 29px; }
+  .parts-table td::before { content: attr(data-label); position: absolute; left: 15px; color: #8a97a8; font-size: 11px; text-transform: uppercase; }
+  .parts-table td:last-child { padding-left: 0; margin-top: 9px; }
+  .part-buy { width: 100%; padding: 10px; border: 1px solid #f2b4a8; border-radius: 6px; }
+}

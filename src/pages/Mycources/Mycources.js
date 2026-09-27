@@ -96,7 +96,12 @@ const MyCourses = () => {
 
   return (
     <div className="mycourses-container">
-      <h1>Khóa Học Của Tôi</h1>
+      <div className="mycourses-heading">
+        <h1>Khóa Học Của Tôi</h1>
+        <button className="btn-components" onClick={() => navigate("/components")}>
+          Xem linh kiện cần chuẩn bị
+        </button>
+      </div>
 
       {!email ? (
         <div className="login-warning-box">
@@ -137,6 +142,9 @@ const MyCourses = () => {
                     className="btn-view"
                   >
                     Tiếp tục học
+                  </button>
+                  <button className="btn-parts-secondary" onClick={() => navigate("/components")}>
+                    Mua linh kiện thực hành
                   </button>
                 </div>
               </div>

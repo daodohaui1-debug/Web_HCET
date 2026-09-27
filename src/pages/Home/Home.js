@@ -6,7 +6,7 @@ import Espidf from "../../images/espidf.png";
 import CourseCard from "../../components/cource/cource";
 import { useState } from "react";
 import { useEffect } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 function Home() {
   const courses = [
@@ -80,9 +80,10 @@ function Home() {
             <br />- Tiếp cận với các dòng vi điều khiển phổ biến: STM32, ESP32,
             ARDUINO, ESP8266,...
           </p>
-          <a href="#" class="btn btn_3">
-            Explore more
-          </a>
+          <div className="home-hero-actions">
+            <Link to="/courses" className="btn btn_3">Xem khóa học</Link>
+            <Link to="/components" className="home-components-btn">Xem linh kiện cần chuẩn bị</Link>
+          </div>
         </article>
         <section class="flex"></section>
       </header>
@@ -91,6 +92,9 @@ function Home() {
         <section className="title_header">
           <h1 className="title">Seri mất phí</h1>
           <p>Sống là để học embedded hết mình</p>
+          <Link to="/components" className="components-inline-link">
+            Bạn chưa có linh kiện? Xem danh sách mua ngay →
+          </Link>
           <span className="bar"></span>
         </section>
         <section className="slider padding_0x">

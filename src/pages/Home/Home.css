@@ -447,3 +447,15 @@ padding: 5px;
 .sale-btn:hover {
     background: #d60000;
 }
+/* Links to the components shopping page */
+.home-hero-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; margin-top: 22px; }
+.home-hero-actions .btn { margin: 0; }
+.home-components-btn { display: inline-flex; align-items: center; min-height: 43px; padding: 9px 18px; border: 1px solid rgba(255,255,255,.75); border-radius: 5px; color: #fff; font-weight: 600; transition: .2s; }
+.home-components-btn:hover { background: #fff; color: #002347; }
+.components-inline-link { display: inline-block; margin-top: 9px; color: #e84d2a; font-size: 14px; font-weight: 650; }
+.components-inline-link:hover { color: #b92e12; text-decoration: underline; }
+
+@media (max-width: 600px) {
+  .home-hero-actions { display: grid; grid-template-columns: 1fr; }
+  .home-hero-actions .btn, .home-components-btn { width: 100%; justify-content: center; text-align: center; }
+}

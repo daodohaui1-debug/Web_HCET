@@ -128,6 +128,7 @@ function Header({ onReload }) {
             TRANG CHỦ
           </Link>
           <Link to="/courses" onClick={() => setMobileMenuOpen(false)}>KHÓA HỌC CỦA TÔI</Link>
+          <Link to="/components" onClick={() => setMobileMenuOpen(false)}>LINH KIỆN</Link>
           {user && user.email === "laptrinhembedded@gmail.com" && (
             <>
               <Link to="/admin" onClick={() => setMobileMenuOpen(false)}>THÊM USER</Link>

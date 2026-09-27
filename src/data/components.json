@@ -1,0 +1,115 @@
+[
+  {
+    "id": 1,
+    "courseName": "Seri STM32 Basic",
+    "description": "Chuẩn bị 3 linh kiện bắt buộc trước, các linh kiện còn lại có thể mua theo từng bài học.",
+    "shopLink": "https://shopee.vn/ngoc992002?categoryId=100639&entryPoint=ShopByPDP&itemId=44334189508",
+    "data": [
+      {
+        "component": "STM32F1 Blue Pill",
+        "description": "Bo mạch chính của khóa học",
+        "category": "Bắt buộc",
+        "shopeeLink": "https://shopee.vn/Kit-STM32F103C8T6-C6T6-keilc-%C4%91%C3%A3-check-chip-real-STM32-ARM-St-Link-V2-i.301200659.50317306888?extraParams=%7B%22display_model_id%22%3A287933959329%2C%22model_selection_logic%22%3A3%7D",
+        "image": "https://down-vn.img.susercontent.com/file/vn-11134207-81ztc-msmxef7am8024f.webp",
+        "imagePosition": "58% 50%"
+      },
+      {
+        "component": "Board trắng",
+        "description": "Breadboard 400 hoặc 830 lỗ",
+        "category": "Bắt buộc",
+        "shopeeLink": "https://shopee.vn/Breadboard-b%E1%BA%A3ng-c%E1%BA%AFm-test-m%E1%BA%A1ch-i.301200659.47667365312?extraParams=%7B%22display_model_id%22%3A336469143527%2C%22model_selection_logic%22%3A3%7D",
+        "image": "https://down-vn.img.susercontent.com/file/vn-11134207-81ztc-msp69qmy562s05@resize_w450_nl.webp",
+        "imagePosition": "60% 6%"
+      },
+      {
+        "component": "ST-Link V2",
+        "description": "Mạch nạp và debug STM32",
+        "category": "Bắt buộc",
+        "shopeeLink": "https://shopee.vn/Kit-STM32F103C8T6-C6T6-keilc-%C4%91%C3%A3-check-chip-real-STM32-ARM-St-Link-V2-i.301200659.50317306888?extraParams=%7B%22display_model_id%22%3A287933959329%2C%22model_selection_logic%22%3A3%7D",
+        "image": "https://down-vn.img.susercontent.com/file/vn-11134207-81ztc-msobqspujite2d.webp",
+        "imagePosition": "42% 37%"
+      },
+      {
+        "component": "LCD 16x2",
+        "description": "Thực hành hiển thị ký tự",
+        "category": "Sử dụng theo bài",
+        "shopeeLink": "https://shopee.vn/M%C3%A0n-h%C3%ACnh-LCD-1602-16x2-i.301200659.56767329469?extraParams=%7B%22display_model_id%22%3A431469121978%2C%22model_selection_logic%22%3A3%7D",
+        "image": "https://down-vn.img.susercontent.com/file/vn-11134207-81ztc-msp609ipo6it06.webp",
+        "imagePosition": "89% 10%"
+      },
+      {
+        "component": "DHT11",
+        "description": "Cảm biến nhiệt độ, độ ẩm",
+        "category": "Sử dụng theo bài",
+        "shopeeLink": "https://shopee.vn/C%E1%BA%A3m-bi%E1%BA%BFn-nhi%E1%BB%87t-%C4%91%E1%BB%99-%C4%91%E1%BB%99-%E1%BA%A9m-DHT11-i.301200659.55917340208?extraParams=%7B%22display_model_id%22%3A441469126515%2C%22model_selection_logic%22%3A3%7D",
+        "image": "https://down-vn.img.susercontent.com/file/vn-11134207-81ztc-msp64zgxnlz992@resize_w450_nl.webp",
+        "imagePosition": "76% 29%"
+      },
+      {
+        "component": "Biến trở",
+        "description": "Thực hành đọc ADC",
+        "category": "Sử dụng theo bài",
+        "shopeeLink": "https://shopee.vn/Bi%E1%BA%BFn-tr%E1%BB%9F-xoay-chi%E1%BA%BFt-%C3%A1p-xoay-1K-2K-10K-i.301200659.54818080414?extraParams=%7B%22display_model_id%22%3A331529471556%2C%22model_selection_logic%22%3A3%7D",
+        "image": "https://down-vn.img.susercontent.com/file/vn-11134207-81ztc-mtbtn6pxtn9c4a@resize_w450_nl.webp",
+        "imagePosition": "84% 31%"
+      },
+      {
+        "component": "CH340 USB TO TTL",
+        "description": "Giao tiếp UART với máy tính",
+        "category": "Sử dụng theo bài",
+        "shopeeLink": "https://shopee.vn/Module-USB-to-TTL-CH340-i.301200659.43984201218?extraParams=%7B%22display_model_id%22%3A416469141661%2C%22model_selection_logic%22%3A3%7D",
+        "image": "https://down-vn.img.susercontent.com/file/vn-11134207-81ztc-msp67jmppo923f.webp",
+        "imagePosition": "51% 73%"
+      },
+      {
+        "component": "MPU6050",
+        "description": "Cảm biến gia tốc và con quay",
+        "category": "Sử dụng theo bài",
+        "shopeeLink": "https://shopee.vn/C%E1%BA%A3m-bi%E1%BA%BFn-MPU6050-GY-521-6-tr%E1%BB%A5c-i.301200659.47017360220?extraParams=%7B%22display_model_id%22%3A361469120466%2C%22model_selection_logic%22%3A3%7D",
+        "image": "https://down-vn.img.susercontent.com/file/vn-11134207-81ztc-msp5x808wnpla8@resize_w450_nl.webp",
+        "imagePosition": "79% 52%"
+      },
+      {
+        "component": "LCD ST7735",
+        "description": "Màn hình màu giao tiếp SPI",
+        "category": "Sử dụng theo bài",
+        "shopeeLink": "https://shopee.vn/M%C3%A0n-h%C3%ACnh-TFT-LCD-1.8-inch-ST7735-SPI-i.301200659.46567359087?extraParams=%7B%22display_model_id%22%3A277935294523%2C%22model_selection_logic%22%3A3%7D",
+        "image": "https://down-vn.img.susercontent.com/file/vn-11134207-81ztc-msp5cqlbmivdb1@resize_w450_nl.webp",
+        "imagePosition": "92% 48%"
+      },
+      {
+        "component": "HC-SR04",
+        "description": "Cảm biến đo khoảng cách",
+        "category": "Sử dụng theo bài",
+        "shopeeLink": "https://shopee.vn/C%E1%BA%A3m-bi%E1%BA%BFn-si%C3%AAu-%C3%A2m-HC-SR04-%C4%91o-kho%E1%BA%A3ng-c%C3%A1ch-i.301200659.55517800925?extraParams=%7B%22display_model_id%22%3A311507873526%2C%22model_selection_logic%22%3A3%7D",
+        "image": "https://down-vn.img.susercontent.com/file/vn-11134207-81ztc-mt3f0olz8h6s3a@resize_w450_nl.webp",
+        "imagePosition": "68% 77%"
+      },
+      {
+        "component": "Servo SG90",
+        "description": "Thực hành điều khiển PWM",
+        "category": "Sử dụng theo bài",
+        "shopeeLink": "https://shopee.vn/%C4%90%E1%BB%99ng-c%C6%A1-Servo-SG90-9G-180-%C4%91%E1%BB%99-i.301200659.44334189508?extraParams=%7B%22display_model_id%22%3A436469094700%2C%22model_selection_logic%22%3A3%7D&is_from_login=true",
+        "image": "https://down-vn.img.susercontent.com/file/vn-11134207-81ztc-msp5owcjy9l318@resize_w450_nl.webp",
+        "imagePosition": "91% 78%"
+      }
+    ]
+  },
+
+    {
+    "id": 2,
+    "courseName": "Seri STM32 PROJECT - XE CÂN BẰNG",
+    "description": "Đây là các phần cứng để step by step theo seri STM32 xe cân bằng",
+    "shopLink": "https://shopee.vn/ngoc992002?categoryId=100639&entryPoint=ShopByPDP&itemId=44334189508",
+    "data": [
+      {
+        "component": "STM32F1 Blue Pill",
+        "description": "Bo mạch chính của khóa học",
+        "category": "Bắt buộc",
+        "shopeeLink": "https://shopee.vn/Kit-STM32F103C8T6-C6T6-keilc-%C4%91%C3%A3-check-chip-real-STM32-ARM-St-Link-V2-i.301200659.50317306888?extraParams=%7B%22display_model_id%22%3A287933959329%2C%22model_selection_logic%22%3A3%7D",
+        "image": "https://down-vn.img.susercontent.com/file/vn-11134207-81ztc-msmxef7am8024f.webp",
+        "imagePosition": "58% 50%"
+      }
+    ]
+  }
+]
