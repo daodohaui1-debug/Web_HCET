@@ -111,5 +111,21 @@
         "imagePosition": "58% 50%"
       }
     ]
-  }
+  },
+      {
+    "id": 2,
+    "courseName": "Seri STM32 Thanh ghi",
+    "description": "Đây là các phần cứng để step by step theo seri STM32 xe cân bằng",
+    "shopLink": "https://shopee.vn/ngoc992002?categoryId=100639&entryPoint=ShopByPDP&itemId=44334189508",
+    "data": [
+      {
+        "component": "STM32F1 Blue Pill",
+        "description": "Bo mạch chính của khóa học",
+        "category": "Bắt buộc",
+        "shopeeLink": "https://shopee.vn/Kit-STM32F103C8T6-C6T6-keilc-%C4%91%C3%A3-check-chip-real-STM32-ARM-St-Link-V2-i.301200659.50317306888?extraParams=%7B%22display_model_id%22%3A287933959329%2C%22model_selection_logic%22%3A3%7D",
+        "image": "https://down-vn.img.susercontent.com/file/vn-11134207-81ztc-msmxef7am8024f.webp",
+        "imagePosition": "58% 50%"
+      }
+    ]
+  },
 ]
