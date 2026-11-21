@@ -38,6 +38,22 @@
         "imagePosition": "89% 10%"
       },
       {
+        "component": "Dây nối",
+        "description": "Nối dây",
+        "category": "Sử dụng theo bài",
+        "shopeeLink": "https://shopee.vn/D%C3%A2y-c%E1%BA%AFm-Breadboard-Jumper-%C4%91%E1%BB%B1c-%C4%91%E1%BB%B1c-%C4%91%E1%BB%B1c-c%C3%A1i-c%C3%A1i-c%C3%A1i-10cm-20cm-i.301200659.52067340287?extraParams=%7B%22display_model_id%22%3A406600275956%2C%22model_selection_logic%22%3A3%7D&image_ids=vn-11134207-81ztc-msp6cjk2nk799c",
+        "image": "https://down-vn.img.susercontent.com/file/vn-11134207-81ztc-msp6cjk2nk799c@resize_w900_nl.webp",
+        "imagePosition": "89% 10%"
+      },
+      {
+        "component": "LED",
+        "description": "Thực hành hiển thị ký tự",
+        "category": "Sử dụng theo bài",
+        "shopeeLink": "https://shopee.vn/-COMBO-30-con-LED-5mm-LED-3mm-%C4%91%E1%BB%8F-v%C3%A0ng-tr%E1%BA%AFng-xanh-g%C3%B3i-30-led-i.301200659.44668312532?extraParams=%7B%22display_model_id%22%3A341688732809%2C%22model_selection_logic%22%3A3%7D&image_ids=vn-11134201-81ztc-mtg0sz5jot1ibb",
+        "image": "https://down-vn.img.susercontent.com/file/vn-11134201-81ztc-mtg0sz5jot1ibb@resize_w900_nl.webp",
+        "imagePosition": "89% 10%"
+      },
+      {
         "component": "DHT11",
         "description": "Cảm biến nhiệt độ, độ ẩm",
         "category": "Sử dụng theo bài",
@@ -96,8 +112,162 @@
     ]
   },
 
-    {
+      {
     "id": 2,
+    "courseName": "Seri STM32 Thanh ghi",
+    "description": "Đây là các phần cứng để step by step theo seri STM32 xe cân bằng",
+    "shopLink": "https://shopee.vn/ngoc992002?categoryId=100639&entryPoint=ShopByPDP&itemId=44334189508",
+    "data": [
+     {
+        "component": "STM32F1 Blue Pill",
+        "description": "Bo mạch chính của khóa học",
+        "category": "Bắt buộc",
+        "shopeeLink": "https://shopee.vn/Kit-STM32F103C8T6-C6T6-keilc-%C4%91%C3%A3-check-chip-real-STM32-ARM-St-Link-V2-i.301200659.50317306888?extraParams=%7B%22display_model_id%22%3A287933959329%2C%22model_selection_logic%22%3A3%7D",
+        "image": "https://down-vn.img.susercontent.com/file/vn-11134207-81ztc-msmxef7am8024f.webp",
+        "imagePosition": "58% 50%"
+      },
+      {
+        "component": "Board trắng",
+        "description": "Breadboard 400 hoặc 830 lỗ",
+        "category": "Bắt buộc",
+        "shopeeLink": "https://shopee.vn/Breadboard-b%E1%BA%A3ng-c%E1%BA%AFm-test-m%E1%BA%A1ch-i.301200659.47667365312?extraParams=%7B%22display_model_id%22%3A336469143527%2C%22model_selection_logic%22%3A3%7D",
+        "image": "https://down-vn.img.susercontent.com/file/vn-11134207-81ztc-msp69qmy562s05@resize_w450_nl.webp",
+        "imagePosition": "60% 6%"
+      },
+      {
+        "component": "ST-Link V2",
+        "description": "Mạch nạp và debug STM32",
+        "category": "Bắt buộc",
+        "shopeeLink": "https://shopee.vn/Kit-STM32F103C8T6-C6T6-keilc-%C4%91%C3%A3-check-chip-real-STM32-ARM-St-Link-V2-i.301200659.50317306888?extraParams=%7B%22display_model_id%22%3A287933959329%2C%22model_selection_logic%22%3A3%7D",
+        "image": "https://down-vn.img.susercontent.com/file/vn-11134207-81ztc-msobqspujite2d.webp",
+        "imagePosition": "42% 37%"
+      },
+      {
+        "component": "Dây nối",
+        "description": "Nối dây",
+        "category": "Sử dụng theo bài",
+        "shopeeLink": "https://shopee.vn/D%C3%A2y-c%E1%BA%AFm-Breadboard-Jumper-%C4%91%E1%BB%B1c-%C4%91%E1%BB%B1c-%C4%91%E1%BB%B1c-c%C3%A1i-c%C3%A1i-c%C3%A1i-10cm-20cm-i.301200659.52067340287?extraParams=%7B%22display_model_id%22%3A406600275956%2C%22model_selection_logic%22%3A3%7D&image_ids=vn-11134207-81ztc-msp6cjk2nk799c",
+        "image": "https://down-vn.img.susercontent.com/file/vn-11134207-81ztc-msp6cjk2nk799c@resize_w900_nl.webp",
+        "imagePosition": "89% 10%"
+      },
+      {
+        "component": "LED",
+        "description": "Thực hành hiển thị ký tự",
+        "category": "Sử dụng theo bài",
+        "shopeeLink": "https://shopee.vn/-COMBO-30-con-LED-5mm-LED-3mm-%C4%91%E1%BB%8F-v%C3%A0ng-tr%E1%BA%AFng-xanh-g%C3%B3i-30-led-i.301200659.44668312532?extraParams=%7B%22display_model_id%22%3A341688732809%2C%22model_selection_logic%22%3A3%7D&image_ids=vn-11134201-81ztc-mtg0sz5jot1ibb",
+        "image": "https://down-vn.img.susercontent.com/file/vn-11134201-81ztc-mtg0sz5jot1ibb@resize_w900_nl.webp",
+        "imagePosition": "89% 10%"
+      },
+      {
+        "component": "Biến trở",
+        "description": "Thực hành đọc ADC",
+        "category": "Sử dụng theo bài",
+        "shopeeLink": "https://shopee.vn/Bi%E1%BA%BFn-tr%E1%BB%9F-xoay-chi%E1%BA%BFt-%C3%A1p-xoay-1K-2K-10K-i.301200659.54818080414?extraParams=%7B%22display_model_id%22%3A331529471556%2C%22model_selection_logic%22%3A3%7D",
+        "image": "https://down-vn.img.susercontent.com/file/vn-11134207-81ztc-mtbtn6pxtn9c4a@resize_w450_nl.webp",
+        "imagePosition": "84% 31%"
+      },
+      {
+        "component": "CH340 USB TO TTL",
+        "description": "Giao tiếp UART với máy tính",
+        "category": "Sử dụng theo bài",
+        "shopeeLink": "https://shopee.vn/Module-USB-to-TTL-CH340-i.301200659.43984201218?extraParams=%7B%22display_model_id%22%3A416469141661%2C%22model_selection_logic%22%3A3%7D",
+        "image": "https://down-vn.img.susercontent.com/file/vn-11134207-81ztc-msp67jmppo923f.webp",
+        "imagePosition": "51% 73%"
+      },
+      {
+        "component": "LCD ST7735",
+        "description": "Màn hình màu giao tiếp SPI",
+        "category": "Sử dụng theo bài",
+        "shopeeLink": "https://shopee.vn/M%C3%A0n-h%C3%ACnh-TFT-LCD-1.8-inch-ST7735-SPI-i.301200659.46567359087?extraParams=%7B%22display_model_id%22%3A277935294523%2C%22model_selection_logic%22%3A3%7D",
+        "image": "https://down-vn.img.susercontent.com/file/vn-11134207-81ztc-msp5cqlbmivdb1@resize_w450_nl.webp",
+        "imagePosition": "92% 48%"
+      }
+      ,
+      {
+        "component": "DS3231",
+        "description": "RTC Thời gian thực, thực hành I2C",
+        "category": "Sử dụng theo bài",
+        "shopeeLink": "https://shopee.vn/Module-DS3231-RTC-th%E1%BB%9Di-gian-th%E1%BB%B1c-ch%C3%ADnh-x%C3%A1c-gi%C3%A1-r%E1%BA%BB-i.301200659.53918629728?extraParams=%7B%22display_model_id%22%3A401565181694%2C%22model_selection_logic%22%3A3%7D&image_ids=vn-11134201-81ztc-mtrn5fzuvojs68",
+        "image": "https://down-vn.img.susercontent.com/file/vn-11134201-81ztc-mtrn5fzuvojs68.webp",
+        "imagePosition": "92% 48%"
+      }
+      ,
+      {
+        "component": "Logic Analayzer 8ch",
+        "description": "Debug xung",
+        "category": "Sử dụng theo bài",
+        "shopeeLink": "https://shopee.vn/Logic-analyzer-8-channels-%C4%91o-xung-debug-m%E1%BA%A1ch-%C4%91i%E1%BB%87n-t%E1%BB%AD-stm32-esp32-arduino-i.301200659.43136405972?extraParams=%7B%22display_model_id%22%3A446680569118%2C%22model_selection_logic%22%3A3%7D&image_ids=vn-11134201-81ztc-muwuurxup1xh7e",
+        "image": "https://down-vn.img.susercontent.com/file/vn-11134201-81ztc-muwuurxu874294.webp",
+        "imagePosition": "92% 48%"
+      }
+    ]
+  },
+       {
+    "id": 3,
+    "courseName": "Seri ESP32 IDF",
+    "description": "Đây là các phần cứng để step by step theo seri ESP32 IDF",
+    "shopLink": "https://shopee.vn/ngoc992002?categoryId=100639&entryPoint=ShopByPDP&itemId=44334189508",
+    "data": [
+      {
+        "component": "ESP32 DEVKIT V1 30PIN",
+        "description": "Bo mạch chính của khóa học",
+        "category": "Bắt buộc",
+        "shopeeLink": "https://shopee.vn/ESP32-Devkit-V1-CP2101(%C4%91%C3%A3-check-auto-boot-function)-30pin-bluetooth-wifi-i.301200659.54219923941?extraParams=%7B%22display_model_id%22%3A426664383399%2C%22model_selection_logic%22%3A3%7D&image_ids=vn-11134201-81ztc-mus2cqjelmo681",
+        "image": "https://down-vn.img.susercontent.com/file/vn-11134201-81ztc-mus2cqjelmo681.webp",
+        "imagePosition": "58% 50%"
+      },
+      {
+        "component": "Biến trở",
+        "description": "Thực hành đọc ADC",
+        "category": "Sử dụng theo bài",
+        "shopeeLink": "https://shopee.vn/Bi%E1%BA%BFn-tr%E1%BB%9F-xoay-chi%E1%BA%BFt-%C3%A1p-xoay-1K-2K-10K-i.301200659.54818080414?extraParams=%7B%22display_model_id%22%3A331529471556%2C%22model_selection_logic%22%3A3%7D",
+        "image": "https://down-vn.img.susercontent.com/file/vn-11134207-81ztc-mtbtn6pxtn9c4a@resize_w450_nl.webp",
+        "imagePosition": "84% 31%"
+      },
+            {
+        "component": "MQ2",
+        "description": "Thực hành đọc ADC",
+        "category": "Sử dụng theo bài",
+        "shopeeLink": "https://shopee.vn/Module-C%E1%BA%A3m-Bi%E1%BA%BFn-Kh%C3%AD-Gas-MQ2-Ph%C3%A1t-Hi%E1%BB%87n-Kh%C3%AD-Ch%C3%A1y-i.301200659.49971848500?extraParams=%7B%22display_model_id%22%3A321747024661%2C%22model_selection_logic%22%3A3%7D&image_ids=vn-11134201-81ztc-mvo3mngs1oueed",
+        "image": "https://down-vn.img.susercontent.com/file/vn-11134201-81ztc-mvo3mngs1oueed.webp",
+        "imagePosition": "84% 31%"
+      },
+      {
+        "component": "CH340 USB TO TTL",
+        "description": "Giao tiếp UART với máy tính",
+        "category": "Sử dụng theo bài",
+        "shopeeLink": "https://shopee.vn/Module-USB-to-TTL-CH340-i.301200659.43984201218?extraParams=%7B%22display_model_id%22%3A416469141661%2C%22model_selection_logic%22%3A3%7D",
+        "image": "https://down-vn.img.susercontent.com/file/vn-11134207-81ztc-msp67jmppo923f.webp",
+        "imagePosition": "51% 73%"
+      },
+            {
+        "component": "LCD 16x2 - I2C",
+        "description": "Thực hành hiển thị ký tự",
+        "category": "Sử dụng theo bài",
+        "shopeeLink": "https://shopee.vn/M%C3%A0n-h%C3%ACnh-LCD-1602-16x2-i.301200659.56767329469?extraParams=%7B%22display_model_id%22%3A431469121978%2C%22model_selection_logic%22%3A3%7D",
+        "image": "https://down-vn.img.susercontent.com/file/vn-11134207-81ztc-msp609ipo6it06.webp",
+        "imagePosition": "89% 10%"
+      },
+            {
+        "component": "SD CARD",
+        "description": "Thực hành hiển thị ký tự",
+        "category": "Sử dụng theo bài",
+        "shopeeLink": "https://shopee.vn/Module-SD-card-m%E1%BA%A1ch-%C4%91%E1%BB%8Dc-ghi-th%E1%BA%BB-microsd-card-cho-arduino-stm32-esp32..-SPI-i.301200659.48369184701?extraParams=%7B%22display_model_id%22%3A346607898363%2C%22model_selection_logic%22%3A3%7D&image_ids=vn-11134201-81ztc-mu90vs5m0nb82c",
+        "image": "https://down-vn.img.susercontent.com/file/vn-11134201-81ztc-mu90vs5m0nb82c.webp",
+        "imagePosition": "89% 10%"
+      },
+            {
+        "component": "MAX98357 I2S BGA Khuyêch đại âm thanh",
+        "description": "Thực hành hiển thị ký tự",
+        "category": "Sử dụng theo bài",
+        "shopeeLink": "https://shopee.vn/Module-MAX98357-I2S-BGA-khu%E1%BA%BFch-%C4%91%E1%BA%A1i-%C3%A2m-thanh-I2S-cho-Esp32-arduino-stm-i.301200659.55570120060?extraParams=%7B%22display_model_id%22%3A356677693325%2C%22model_selection_logic%22%3A3%7D&image_ids=vn-11134201-81ztc-muvtboshwirpa2",
+        "image": "https://down-vn.img.susercontent.com/file/vn-11134201-81ztc-muvtboxh9req48.webp",
+        "imagePosition": "89% 10%"
+      }
+    ]
+    },
+     {
+    "id": 4,
     "courseName": "Seri STM32 PROJECT - XE CÂN BẰNG",
     "description": "Đây là các phần cứng để step by step theo seri STM32 xe cân bằng",
     "shopLink": "https://shopee.vn/ngoc992002?categoryId=100639&entryPoint=ShopByPDP&itemId=44334189508",
@@ -111,21 +281,5 @@
         "imagePosition": "58% 50%"
       }
     ]
-  },
-      {
-    "id": 2,
-    "courseName": "Seri STM32 Thanh ghi",
-    "description": "Đây là các phần cứng để step by step theo seri STM32 xe cân bằng",
-    "shopLink": "https://shopee.vn/ngoc992002?categoryId=100639&entryPoint=ShopByPDP&itemId=44334189508",
-    "data": [
-      {
-        "component": "STM32F1 Blue Pill",
-        "description": "Bo mạch chính của khóa học",
-        "category": "Bắt buộc",
-        "shopeeLink": "https://shopee.vn/Kit-STM32F103C8T6-C6T6-keilc-%C4%91%C3%A3-check-chip-real-STM32-ARM-St-Link-V2-i.301200659.50317306888?extraParams=%7B%22display_model_id%22%3A287933959329%2C%22model_selection_logic%22%3A3%7D",
-        "image": "https://down-vn.img.susercontent.com/file/vn-11134207-81ztc-msmxef7am8024f.webp",
-        "imagePosition": "58% 50%"
-      }
-    ]
-  }
+    }
 ]
